@@ -27,9 +27,7 @@ class Special extends \SpecialPage {
 	public function execute( $subpage ) {
 		$this->setHeaders();
 
-		$params = $this->getRequest()->getValues();
-		$params += self::parseSubpage( $subpage );
-		$title = $params['_title'] ?? null;
+		$params = $this->getRequest()->getValues() + self::parseSubpage( $subpage );
 		$template = $params['_template'] ?? null;
 
 		$output = $this->getOutput();
@@ -43,8 +41,7 @@ class Special extends \SpecialPage {
 			$output->addWikiMsg( 'specialtemplate-no-template' );
 			$template = $this->msg( 'template' )->parse();
 		}
-
-		$output->setPageTitle( strtr( $title ?: $template, '_', ' ' ) );
+		$output->setPageTitle( strtr( $params['_title'] ?? $template, '_', ' ' ) );
 	}
 
 	/**
