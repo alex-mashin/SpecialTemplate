@@ -27,8 +27,7 @@ class Special extends \SpecialPage {
 	public function execute( $subpage ) {
 		$this->setHeaders();
 
-		$request = $this->getRequest();
-		$params = $request->getValues();
+		$params = $this->getRequest()->getValues();
 		$params += self::parseSubpage( $subpage );
 		$title = $params['_title'] ?? null;
 		$template = $params['_template'] ?? null;

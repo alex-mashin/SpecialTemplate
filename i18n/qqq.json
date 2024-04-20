@@ -8,5 +8,5 @@
 	"specialtemplate": "The name of the extension's entry in Special:SpecialPages",
 	"specialtemplate-desc": "{{desc}}",
 	"specialtemplate-summary": "Description appearing on top of Special:MyExtension.",
-	"specialtemplate-no-template": "An error message when no template is specified."
+	"specialtemplate-no-template": "The error message when no template is specified."
 }
