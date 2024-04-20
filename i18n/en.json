@@ -1,0 +1,12 @@
+{
+	"@metadata": {
+		"authors": [
+			"Alexander Mashin"
+		]
+	},
+	"template": "Template",
+	"specialtemplate": "SpecialTemplate",
+	"specialtemplate-desc": "Adds the page Special:Template that expands a template.",
+	"specialtemplate-summary": "Adds the page Special:Template that expands a template.",
+	"specialtemplate-no-template": "You need to specify the template to expand."
+}

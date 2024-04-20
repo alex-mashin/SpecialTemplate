@@ -1,0 +1,32 @@
+{
+	"name": "SpecialTemplate",
+	"version": "0.1",
+	"author": [
+		"Alexander Mashin"
+	],
+	"url": "https://github.com/alex-mashin/SpecialTemplate",
+	"descriptionmsg": "specialtemplate-desc",
+	"license-name": "MIT",
+	"type": "specialpage",
+	"AutoloadNamespaces": {
+		"MediaWiki\\Extension\\SpecialTemplate\\": "src/"
+	},
+	"SpecialPages": {
+		"Template": "MediaWiki\\Extension\\SpecialTemplate\\Special"
+	},
+	"MessagesDirs": {
+		"SpecialTemplate": [
+			"i18n"
+		]
+	},
+	"ExtensionMessagesFiles": {
+		"SpecialTemplateAlias": "SpecialTemplate.i18n.alias.php"
+	},
+	"manifest_version": 2,
+	"requires": {
+		"MediaWiki": ">= 1.35.0",
+		"platform": {
+			"php": ">= 7.3"
+		}
+	}
+}

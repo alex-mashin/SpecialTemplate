@@ -1,0 +1,12 @@
+{
+	"@metadata": {
+		"authors": [
+			"Александр Машин"
+		]
+	},
+	"template": "Шаблон",
+	"specialtemplate": "SpecialTemplate",
+	"specialtemplate-desc": "Добавляет страницу Служебная:Шаблон, разворачивающую указанный шаблон с параметрами.",
+	"specialtemplate-summary": "Добавляет страницу Служебная:Шаблон, разворачивающую указанный шаблон с параметрами.",
+	"specialtemplate-no-template": "Укажите, какой шаблон вызвать."
+}
