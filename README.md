@@ -10,11 +10,11 @@ Examples:
 two parameters `{{{1}}}` and `{{{2}}}`.
 Then to create a wikilink to this template with the parameters
 `bar` and `baz`, add to any wikipage the code
-`[[Special:Template/bar/baz]]`;
+`[[Special:Template/Foo/bar/baz]]`;
  - if you have _Template:Foo_ with a named parameter `{{{bar}}}`,
 link to it like this: `[[Special:Template/Foo/bar=baz]]`;
  - to change the special page title,
-add `_title`: `[[Special:Template/bar/baz/_title=BAR!]]`.
+add `_title`: `[[Special:Template/Foo/bar/baz/_title=BAR!]]`.
 
 To install:
 ```bash
